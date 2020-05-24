@@ -1,6 +1,6 @@
 # Computer organisation and architecture
 
-![Computer organisation and architecture-1](images/Computer%20organisation%20and%20architecture-1.png)
+![Computer organisation and architecture-1](../../assets/images/Computer%20organisation%20and%20architecture-1.png)
 
 Structure and functions are two aspects of a system. 
 
@@ -18,7 +18,7 @@ Function can be:
 
 Structure can be: 
 
-![Computer organisation and architecture-2](images/Computer%20organisation%20and%20architecture-2.png)
+![Computer organisation and architecture-2](../../assets/images/Computer%20organisation%20and%20architecture-2.png)
 
-![Computer organisation and architecture-3](images/Computer%20organisation%20and%20architecture-3.png)
+![Computer organisation and architecture-3](../../assets/images/Computer%20organisation%20and%20architecture-3.png)
 

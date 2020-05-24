@@ -1,10 +1,10 @@
 # Node design patterns
 
-![Node design patterns-1](images/Node%20design%20patterns-1.png)
+![Node design patterns-1](../../../assets/images/Node%20design%20patterns-1.png)
 
-![Node design patterns-2](images/Node%20design%20patterns-2.jpeg)
+![Node design patterns-2](../../../assets/images/Node%20design%20patterns-2.jpeg)
 
-![Node design patterns-3](images/Node%20design%20patterns-3.png)
+![Node design patterns-3](../../../assets/images/Node%20design%20patterns-3.png)
 
 `const module = (() => { `
 `  const privateFoo = () => {...}; `
@@ -26,5 +26,5 @@
 * The module source code is read from its file and the code is evaluated, as we have seen before. We provide the module with the module object that we just created, and a reference to the require() function. The module exports its public API by manipulating or replacing the module.exports object.
 * Finally, the content of module.exports, which represents the public API of the module, is returned to the caller.
 
-![Node design patterns-4](images/Node%20design%20patterns-4.png)
+![Node design patterns-4](../../../assets/images/Node%20design%20patterns-4.png)
 

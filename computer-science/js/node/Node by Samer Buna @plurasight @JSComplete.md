@@ -172,19 +172,19 @@ While the queue is not empty:
 
 ### setImmediate & process.nextTick
 
-![Node by Samer Buna @plurasight @JSComplete-2](images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-2.png)
+![Node by Samer Buna @plurasight @JSComplete-2](../../../assets/images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-2.png)
 
 SetImmediate triggers even before zeroth second.
 Process.nextTick is after executing process completes.
 
 First case is where the fileName validation is synchronous.
-![Node by Samer Buna @plurasight @JSComplete-3](images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-3.png)
+![Node by Samer Buna @plurasight @JSComplete-3](../../../assets/images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-3.png)
 
 So if we change the fileName to a number, the console.log(“Hello”) does not execute. This is blocking IO
-![Node by Samer Buna @plurasight @JSComplete-4](images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-4.png)
+![Node by Samer Buna @plurasight @JSComplete-4](../../../assets/images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-4.png)
 
 However, if we wrap the validation with a process.nextTick, then the first pass prints the Hello message and the nextTick handles the fileSize function execution.
-![Node by Samer Buna @plurasight @JSComplete-5](images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-5.png)
+![Node by Samer Buna @plurasight @JSComplete-5](../../../assets/images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-5.png)
 
 Understanding setImmediate, setTimeout and process.nextTick is key to understanding the event loop
 
@@ -194,7 +194,7 @@ Callbacks != Async
 
 Using promises and callback interfaces in the same code
 
-![Node by Samer Buna @plurasight @JSComplete-6](images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-6.png)
+![Node by Samer Buna @plurasight @JSComplete-6](../../../assets/images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-6.png)
 
 `cb = () => {} `
 Sets a default value for callback
@@ -238,7 +238,7 @@ DNS depends on libuv and needs the event loop.
 ## Node for Web
 
 The structure of URL to be parse and understanding query strings
-![Node by Samer Buna @plurasight @JSComplete-7](images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-7.png)
+![Node by Samer Buna @plurasight @JSComplete-7](../../../assets/images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-7.png)
 
 `const server = http.createServer()`
 Is an instance of Server Class and is an EventEmitter
@@ -258,7 +258,7 @@ Using REPL helps get realtime interpretation of requests
 
 ## Streams
 
-![Node by Samer Buna @plurasight @JSComplete-8](images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-8.png)
+![Node by Samer Buna @plurasight @JSComplete-8](../../../assets/images/Node%20by%20Samer%20Buna%20@plurasight%20@JSComplete-8.png)
 
 Readable streams start in pause mode and then go to flowing mode..
 Stream.read() is pause mode

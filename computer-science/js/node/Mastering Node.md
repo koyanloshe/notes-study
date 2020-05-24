@@ -1,4 +1,4 @@
 # Mastering Node
 
-![Mastering Node-1](images/Mastering%20Node-1.png)
+![Mastering Node-1](../../../assets/images/Mastering%20Node-1.png)
 

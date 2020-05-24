@@ -43,7 +43,7 @@ Database tier <=> Application tier <=> Presentation tier
 
 Entities have attributes and there is a relationship between entities.
 
-![DBMS-1](images/DBMS-1.png)
+![DBMS-1](../../assets/images/DBMS-1.png)
 
 **Mapping Cardinalities**
 
@@ -55,7 +55,7 @@ Many to many
 **Relational Model**
 **
 **
-![DBMS-2](images/DBMS-2.png)
+![DBMS-2](../../assets/images/DBMS-2.png)
 
 * Data is stored in tables called relations
 * Relations can be normalised
@@ -109,5 +109,5 @@ Opposite direction of generalisation is specialisation.
 
 The details of entities are generally hidden from the user. This is called abstraction. 
 
-![DBMS-3](images/DBMS-3.png)
+![DBMS-3](../../assets/images/DBMS-3.png)
 

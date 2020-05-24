@@ -16,9 +16,9 @@ This can be achieved by splitting components
 This can be solved by using an array or by splitting up components
 
 # Sample Application Mock
-![Properties of Hooks-1](images/Properties%20of%20Hooks-1.png)# 
+![Properties of Hooks-1](../../../assets/images/Properties%20of%20Hooks-1.png)# 
 
-![Properties of Hooks-2](images/Properties%20of%20Hooks-2.png)
+![Properties of Hooks-2](../../../assets/images/Properties%20of%20Hooks-2.png)
 
-![Properties of Hooks-3](images/Properties%20of%20Hooks-3.png)
+![Properties of Hooks-3](../../../assets/images/Properties%20of%20Hooks-3.png)
 

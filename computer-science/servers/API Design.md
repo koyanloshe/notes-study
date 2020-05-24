@@ -46,18 +46,18 @@ The server encountered an unexpected condition which preven‐ ted it from fulfi
 
 ## API type:
 
-|  “List”, “Search”, “Match”, “View All”  | GET collection |
-|-----|-----|
-|  “Show”, “Retrieve”, “View”  | GET resource instance |
-|  
- | POST create a new resource |
-|  “Replace”  | PUT update a resource collection |
-|  “Update” | PUT update a resource instance |
-|  “Delete All”, “Remove All”, “Clear”, “Reset” | DELETE delete a resource collection  |
-|  “Delete”, “Remove” | DELETE delete a resource instance |
-|  <other verbs>  | POST custom action on a resource instance  |
+| “List”, “Search”, “Match”, “View All”        | GET collection                            |
+| -------------------------------------------- | ----------------------------------------- |
+| “Show”, “Retrieve”, “View”                   | GET resource instance                     |
+|                                              |
+| POST create a new resource                   |
+| “Replace”                                    | PUT update a resource collection          |
+| “Update”                                     | PUT update a resource instance            |
+| “Delete All”, “Remove All”, “Clear”, “Reset” | DELETE delete a resource collection       |
+| “Delete”, “Remove”                           | DELETE delete a resource instance         |
+| <other verbs>                                | POST custom action on a resource instance |
 
 ## HTTP codes
 
-![API Design-1](images/API%20Design-1.tiff)
+![API Design-1](../../assets/images/API%20Design-1.tiff)
 

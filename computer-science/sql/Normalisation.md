@@ -25,7 +25,7 @@ Boyce-Codd Normal Form (BCNF) is an extension of Third Normal Form on strict ter
 In the above image, Stu_ID is the super-key in the relation Student_Detail and Zip is the super-key in the relation ZipCodes. So,
 Stu_ID → Stu_Name, Zip
 
-![Normalisation-1](images/Normalisation-1.png)
+![Normalisation-1](../../assets/images/Normalisation-1.png)
 
 ## Joins
 
