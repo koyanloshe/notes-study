@@ -1,0 +1,4 @@
+# Digital Ocean personal access token
+
+2387ad3aabb699975c075a0749ff85bafd544df2a8c985aa2add09f0cab8204b
+

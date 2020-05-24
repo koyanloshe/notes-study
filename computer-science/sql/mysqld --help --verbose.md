@@ -1,0 +1,2 @@
+mysqld --help --verbose
+
